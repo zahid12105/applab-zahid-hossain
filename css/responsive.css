@@ -1,0 +1,136 @@
+@media only screen and (max-width: 992px) {
+  #menu_toggler {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .content_area h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  #banner {
+    background-position: left bottom;
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    margin: 50px 0;
+    margin-bottom: 25px;
+  }
+  .inner_banner {
+    flex-direction: column;
+  }
+  .banner_area {
+    width: 100%;
+  }
+  .content_area {
+    order: 2;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .inner_client {
+    flex-wrap: wrap;
+  }
+  #feature {
+    background-image: none;
+  }
+
+  #app_faetures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .inner_apps {
+    padding: 0 10px;
+  }
+
+  #text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+  }
+  .service {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .charges_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .meet_client {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .meet_client_right{
+      max-width: 50%;
+      margin-top: 50px;
+  }
+  .faq_title{
+      text-align: center;
+  }
+  /* .app_dawnlode{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .app_dawnlode_img img{
+      order: 2;
+  } */
+}
+
+@media only screen and (max-width: 570px) {
+  .content_area h6 {
+    max-width: 362px;
+    margin-bottom: 25px;
+  }
+  .content_area h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .banner_btn {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .inner_client {
+    flex-wrap: wrap;
+  }
+  .inner_client img {
+    margin: 20px 0;
+  }
+  #app_faetures {
+    background-image: none;
+  }
+
+  #text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+  }
+  .designe_left img {
+    display: none;
+  }
+  .service {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .charges_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
